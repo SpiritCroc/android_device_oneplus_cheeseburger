@@ -43,3 +43,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := OnePlus/OnePlus5/OnePlus5:9/PKQ1.180716.001/1812232046:user/release-keys
 
 TARGET_VENDOR := oneplus
+
+# AICP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Carlos Solano (csolanol), SpiritCroc"
